@@ -1,0 +1,226 @@
+/*************** Element Selectors ***************/
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0px;
+}
+
+hr{
+  margin: 20px 0px;
+}
+
+a{
+  color: #11999E;
+}
+
+/*************** Class Selectors ***************/
+
+.separator{
+  font-size: 50px;
+  margin: 0px auto;
+  color: #cce0e0;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #ffffff;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile{
+  margin: 30px auto;
+}
+
+.intro-div{
+  margin: 0px auto;
+  width: 400px;
+}
+
+.skills{
+  margin-top: 60px;
+  height: 600px;
+}
+
+.skill-img{
+  border-radius: 100%;
+  width: 25%;
+}
+
+.skill-1-text{
+  position: relative;
+  top: 10px;
+}
+
+.skill-2-text{
+  position: relative;
+  top: 30px;
+}
+
+.skill-para{
+  margin-top: 9px;
+  font-size: 17px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.skill-1-row{
+  margin-top: 85px;
+  margin-bottom: 120px;
+}
+
+.computer-img{
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img{
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  width: 400px;
+  margin: 40px auto;
+}
+
+.contact-btn{
+  margin: 35px;
+}
+
+.contact-btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: 200;
+  padding: 11px 18px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-btn:hover {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+.footer{
+  height: 100px;
+
+}
+
+.footer-content{
+  position: relative;
+  top: 25px;
+}
+
+.footer-content a{
+  color: #11999E;
+  padding: 9px;
+  text-decoration: none;
+}
+
+.footer-content a:hover{
+  color: #fff;
+  padding: 9px;
+  text-decoration: none;
+}
+
+/*************** Id Selectors ***************/
+
+#description {
+  margin-top: 0px;
+  font-size: 1.31rem;
+  position: relative;
+  bottom: 1.28rem;
+  font-family: "Zilla Slab", serif;
+  /* color: #40514e; */
+  color: #66BFBF;
+}
+
+#name{
+  font-size: 5rem;
+  /* color: #11999e; */
+}
+
+#profile-pic {
+  border-radius: 100%;
+  height: 150px;
+  margin-top: 20px;
+  width: 150px;
+
+}
+
+#intro-para, #contact-para{
+  font-size: 20px;
+}
+
+#copyright{
+  margin-bottom: 0px;
+  color: #fff;
+}

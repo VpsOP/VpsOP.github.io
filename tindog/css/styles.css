@@ -1,0 +1,294 @@
+/* Title Section */
+
+body {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+#title {
+  background-color: #ff4c68;
+  position: relative;
+  z-index: 0;
+}
+
+.heading {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+
+.title-img {
+  width: 60%;
+  right: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features Tab */
+
+#features{
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+    background-color: #FFF;
+
+}
+
+.features-row {
+  margin: 0;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 20px;
+  font-size: 70px;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.icon-container {
+  text-align: center;
+  padding: 25px;
+}
+
+.feature-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature-description {
+  color: #8f8f8f;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* Testimials Section */
+
+#testimonials {
+  color: #fff;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 0 20px;
+}
+
+#tnw-logo {
+  width: 10%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-text {
+  padding: 0% 0;
+}
+
+.pricing-heading {
+  font-weight: 700;
+}
+
+.pricing-para {
+  color: #8f8f8f;
+}
+
+.card-container {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.card {
+  margin: 0px auto;
+  padding: 0;
+  height: 100%;
+  /* width: 80%; */
+  align-self: center;
+}
+
+.card-header {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card-body {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Pricing Buttons */
+
+.card-footer{
+  background: transparent;
+  
+}
+
+
+/* Call to Action */
+
+#cta{
+  background-color: #FF4C68;
+  padding: 8% 25% 5%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-weight: 800;
+  padding-top: 15px;
+  color: #FFF;
+  font-size: 3rem;
+
+}
+
+.cta-download-button{
+  margin: 5% 2% 5% 0%;
+}
+
+
+/* Footer Area */
+
+#footer{
+  background-color: #FFF;
+  text-align: center;
+  padding: 4% 15% 2%;
+}
+
+.footer-social{
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.footer-social-icon{
+  color:  #8f8f8f;
+  margin: 0 6px;
+}
+
+.footer-social-icon:hover{
+  color: #FF4C68;
+}
+
+.copyright{
+  color: #8f8f8f;
+}
+
+.copyright:hover{
+  color: #000000;
+};
+
+
+#footer-tindog{
+  font-size: 23px;
+  font-family: "Ubuntu";
+}
+
+
+
+/* CSS For Screen Size less than 1028 pixels */ 
+
+@media (max-width: 1028px){
+
+  .title-img{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1028px){
+  .title-img{
+    position: relative;
+    left: 100px;
+    top: 35px;
+  }
+
+  .download-button{
+    width: 150px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 990px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    margin-top: 25px;
+    width: 55%
+  }
+}

@@ -9,11 +9,13 @@ var kick = new Audio("sounds/kick-bass.mp3");
 document.querySelectorAll("button").forEach((button) => {
   button.addEventListener("click", function () {
       playSound(this.innerText.toLowerCase());
+      buttonAnimation(this.innerText.toLowerCase());
   });
 });
 
 document.addEventListener("keydown", function(event) {
     playSound(event.key);
+    buttonAnimation(event.key);
 });
 
 function playSound(key) {
@@ -49,4 +51,12 @@ function playSound(key) {
       default:
         break;
     }
+}
+
+function buttonAnimation(key) {
+  var pressedKey = document.querySelector("." + key);
+  pressedKey.classList.add("pressed");
+  setTimeout( function () {
+    pressedKey.classList.remove("pressed");
+  }, 100);
 }

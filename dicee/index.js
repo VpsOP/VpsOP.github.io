@@ -3,7 +3,7 @@
 var randomNumber1 = Math.random();
 randomNumber1 = randomNumber1 * 6;
 randomNumber1 = Math.floor(randomNumber1) + 1;
-var img1src = "https://vpsop.github.io/dicee/images/dice" + randomNumber1 + ".png";
+var img1src = "https://raw.githubusercontent.com/VpsOP/vpsop.github.io/main/dicee/images/dice" + randomNumber1 + ".png";
 var img1 = document.getElementsByClassName("img1")[0];
 
 // Random Number for Second dice
@@ -11,7 +11,7 @@ var img1 = document.getElementsByClassName("img1")[0];
 var randomNumber2 = Math.random();
 randomNumber2 = randomNumber2 * 6;
 randomNumber2 = Math.floor(randomNumber2) + 1;
-var img2src = "https://vpsop.github.io/dicee/images/dice" + randomNumber2 + ".png";
+var img2src = "https://raw.githubusercontent.com/VpsOP/vpsop.github.io/main/dicee/images/dice" + randomNumber2 + ".png";
 var img2 = document.getElementsByClassName("img2")[0];
 
 // Set Dice image based on the number Generated above

@@ -21,7 +21,10 @@ $(".generate-btn").click(function () {
 
     var capture = document.getElementById("preview-container");
     var offset = $("#preview-container").offset();
-    console.log(offset["top"], offset["left"]);
+    // console.log(offset["top"], offset["left"]);
+
+    var scroll = $("#preview-container");
+    console.log(scroll);
     
 
 
@@ -44,7 +47,7 @@ $(".generate-btn").click(function () {
 
     html2canvas(capture, {
         allowTaint: true,
-        x: offset["left"] + getValueOfPercent(offset["left"], 0.8956916099773243) + getValueOfPercent(offset["left"], 0.068), // offset["left"]
+        // x: offset["left"] + getValueOfPercent(offset["left"], 0.8956916099773243) + getValueOfPercent(offset["left"], 0.068), // offset["left"]
         y: offset["top"],
         width: width,
         height: height,
